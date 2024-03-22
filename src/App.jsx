@@ -1,10 +1,12 @@
 import {books} from './constants/mockData'
+import Layout from './layouts/Layout';
 
 function App() {
   return (
     <>
-      <h1>Book App Starting files</h1>
-      {books.map((book) => (<p>{book.title}</p>))}
+      <Layout>
+        <h1>Book app starting files </h1>
+      </Layout>
     </>
   );
 }
